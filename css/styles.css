@@ -1,0 +1,118 @@
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0
+}
+
+.bottom-container {
+
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "merriweather", serif;
+
+}
+
+hr {
+  border-color: #EAF6F6;
+  border-width: 7px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 25%;
+
+}
+
+h1 {
+  color: #66BFBF;
+  margin-top: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625em;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
+.guitar {
+  margin: 0 30px 0 0;
+  float: left;
+  width: 25%;
+}
+
+.gaming {
+  margin: 0 0 0 30px;
+  float: right;
+  width: 25%;
+}
+
+.profile {
+  line-height: 2;
+  margin: 0 auto 0 auto;
+  width: 50%;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.bottom-cloud{
+position: absolute;
+left: 300px;
+bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+
+.buttonClass {
+  font-size:20px;
+  font-family:Montserrat;
+  width:140px;
+  height:64px;
+  border-width:1px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight: normal;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px #276873;
+  text-shadow: 0px 1px 0px #3d768a;
+  background:linear-gradient(#599bb3, #408c99);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#408c99, #599bb3);
+}
